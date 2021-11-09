@@ -84,7 +84,3 @@ void delStudent(vector <studentinfo*> &v) {
     }
   }
 }
-
-
-
-
