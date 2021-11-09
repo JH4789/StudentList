@@ -69,7 +69,7 @@ void printStudent(vector <studentinfo*> &v) {
     cout << (*ptr) -> lastname << ", ";
     cout << (*ptr) -> studentid << ", ";
     //Set precision code taken from https://stackoverflow.com/questions/14369673/round-double-to-3-points-decimal
-    cout << setprecision(3) << (*ptr) -> gpa << endl;
+    cout << std::fixed << setprecision(2) << (*ptr) -> gpa << endl;
   }
 }
 void delStudent(vector <studentinfo*> &v) {
