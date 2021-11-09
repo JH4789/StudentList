@@ -1,3 +1,8 @@
+/*
+Name: Jayden Huang
+Date: 11/9/2021
+Functionality: Creates editable database of students with characteristics
+*/
 //Setup
 #include <iostream>
 #include <cstring>
@@ -64,7 +69,7 @@ void printStudent(vector <studentinfo*> &v) {
     cout << (*ptr) -> lastname << ", ";
     cout << (*ptr) -> studentid << ", ";
     //Set precision code taken from https://stackoverflow.com/questions/14369673/round-double-to-3-points-decimal
-    cout << setprecision(4) << (*ptr) -> gpa << endl;
+    cout << setprecision(3) << (*ptr) -> gpa << endl;
   }
 }
 void delStudent(vector <studentinfo*> &v) {
